@@ -1,0 +1,30 @@
+body {
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: rgb(222, 222, 222);
+    height: fit-content;
+    padding: 24px;
+    gap: 8px;
+}
+.outline {
+    border: solid 1px #a2a2a2;
+    border-radius: 8px;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header {
+    padding: 0px;
+    margin: 0px;
+}
+
