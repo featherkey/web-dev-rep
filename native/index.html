@@ -2,16 +2,17 @@
     <head>
         <title>Привет</title>
         <link rel="stylesheet" href = "./styles.css"/>
+        <script src="index.js" defer></script>
     </head>
     <body>
         <header>
             Шапка
         </header>
-        <main class="main">
-            <div class="card outline">
+        <main class="main" onclick="onMainClick()">
+            <div class="card outline" onclick="onCardClick()">
                 <h4 class="card-header">Sign in</h4>
                 <div>
-                    <button>Max</button>
+                    <button onclick="onMaxBtnClick()" id="btnMax">Max</button>
                     <button>VK</button>
                 </div>                
                 <label>или</label>
@@ -21,7 +22,7 @@
                     <input type="checkbox">
                     <label>Запомнить меня</label>    
                 </div>
-                <button>Войти</button>
+                <button id="Hse" onclick="onHseClick()">Войти</button>
 
             </div>            
         </main>
